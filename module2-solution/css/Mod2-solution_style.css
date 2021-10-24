@@ -8,15 +8,17 @@ h1 {
   text-align: center;
   color: blue;
 }
-#box {
+#box1 {
   height: 200px;
   margin: 0px 10px 20px 10px;
   border: 1px solid black;
   padding: 0px 10px 10px 10px;
   overflow:hidden;
   position: relative;
+  background-color:gold;
+  color: maroon;
 }
-#z_box {
+#z_box1 {
   font-size: 25px;
   font-weight: bold;
   border-left: 1px solid black;
@@ -27,8 +29,58 @@ h1 {
   right: 0;
   top: 0;
   padding: 5px;
+  background-color:yellowgreen; 
+  color:darkblue;
 } 
 
+#box2 {
+  height: 200px;
+  margin: 0px 10px 20px 10px;
+  border: 1px solid black;
+  padding: 0px 10px 10px 10px;
+  overflow:hidden;
+  position: relative;
+  background-color:lightgreen;
+  color: orangered;
+}
+#z_box2 {
+  font-size: 25px;
+  font-weight: bold;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  background-color:gold; 
+  color:maroon
+} 
+#box3 {
+  height: 200px;
+  margin: 0px 10px 20px 10px;
+  border: 1px solid black;
+  padding: 0px 10px 10px 10px;
+  overflow:hidden;
+  position: relative;
+  background-color:yellowgreen;
+  color: orangered;
+}
+#z_box3 {
+  font-size: 25px;
+  font-weight: bold;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  background-color:lightgreen; 
+  color:orangered;
+} 
 p {
   font-size: 20px;
   text-align: left;
