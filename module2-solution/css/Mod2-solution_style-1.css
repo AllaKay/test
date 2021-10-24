@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  font-family:cursive;
+  align: center;
+  width: 90%;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: blue;
+}
+.box {
+  height: 300px;
+  float: left;
+  margin: 0px 10px 20px 10px;
+  border: 1px solid black;
+  padding: 8px;
+  background-color: gold; 
+  overflow:hidden;
+}
+.z_box {
+  font-size: 25px;
+  color:maroon;
+  background-color: yellowgreen;
+  border: 1px solid black;
+  text-align: center;
+  width: 150px;
+  float: right;
+  margin: 0px 0px 0px 0px;
+ }
+
+p {
+  font-size: 20px;
+  text-align: left;
+  float: left;
+  margin: 0px 0px 10px 10px;
+  height: 150px;
+  overflow:hidden;
+}
+.p1 {
+  background-color:gold; 
+  color: blue;
+}
+.p2 {
+  background-color:lightgreen; 
+  color: darkblue;
+}
+.p3 {
+  background-color:yellowgreen; 
+  color: maroon;
+}
+
+.row {
+  width: 100%;
+}

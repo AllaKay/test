@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  font-family:cursive;
+  width: 90%;
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: blue;
+}
+#box {
+  height: 200px;
+  margin: 0px 10px 20px 10px;
+  border: 1px solid black;
+  padding: 0px 10px 10px 10px;
+  overflow:hidden;
+  position: relative;
+}
+#z_box {
+  font-size: 25px;
+  font-weight: bold;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 150px;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 0;
+  padding: 5px;
+} 
+
+p {
+  font-size: 20px;
+  text-align: left;
+  margin: 45px 0px 0px 0px;
+  height: 150px;
+  overflow:hidden;
+  float: left;
+  
+}
+#p1 {
+  background-color:gold; 
+  color: maroon;
+}
+#p2 {
+  background-color:lightgreen; 
+  color: orangered;
+}
+#p3 {
+  background-color:yellowgreen; 
+  color: darkblue;
+}
+
+#row {
+  width: 100%;
+}

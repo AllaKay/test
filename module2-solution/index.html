@@ -2,9 +2,56 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>module2-solution</title>
+	<link rel="stylesheet" href="Css/Mod2-solution_style.css">
+	
+  <style>
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+   .col-lg-4 {float: left; width: 33.33%;}
+  }
+
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6, .col-md-12 {float: left;}
+   .col-md-6 {width: 50%;}
+   .col-md-12 {width: 100%;}
+  }
+  
+  /********** Minim devices only **********/
+  @media (max-width: 767px) {
+   .col-min-12 {float: left; width: 100%;}
+  }
+  </style>
+
 </head>
+
 <body>
-<h1> module2-solution </h1>
+  <h1 > OUR MENU </h1>
+  
+  <div id="row">
+    <div class="col-lg-4 col-md-6 col-min-12 "> 
+      <div id="box" style="background-color:gold">
+        <div id="z_box" style="background-color:yellowgreen; color:darkblue";> Chicken </div>
+        <p id="p1">1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-min-12">
+      <div id="box" style="background-color:lightgreen";>
+        <div id="z_box" style="background-color:gold; color:maroon";> Beef </div>
+        <p id="p2">2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
+    </div> 
+
+   <div class="col-lg-4 col-md-12 col-min-12">
+      <div id="box" style="background-color:yellowgreen";>
+        <div id="z_box" style="background-color:lightgreen; color:orangered";> Sushi </div>
+        <p id="p3">3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
