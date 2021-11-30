@@ -1,0 +1,18 @@
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+body {
+    box-sizing: border-box;
+    font-family:cursive;
+    width: 80%;
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    color: darkcyan;
+}
+button {
+    font-size: 18px;
+    color: darkcyan;
+}
